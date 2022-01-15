@@ -4,7 +4,7 @@ const { Pool } = require("pg");
 app.use(express.json()); //This means the body will be automatically parsed from a string into a JSON object.
 
 const pool = new Pool({
-  user: "sharmainetaylor",
+  user: "",
   host: "localhost",
   database: "sql_test",
   password: "",
